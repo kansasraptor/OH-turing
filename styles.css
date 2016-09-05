@@ -1,0 +1,65 @@
+body{
+  /*margin-left: 5%;*/
+  font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+  /*position:fixed;*/
+  top: 0;
+  background-color: thistle;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+main {
+  margin: 20px 100px 0 100px;
+
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px 20px;
+}
+
+
+h2 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+menu {
+  margin: 10px 10px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+menuitem a {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid gainsboro;
+  text-decoration: none;
+}
+input {
+  margin-left: 20px;
+  font-size: 22px;
+}
+h3 {
+  font-size: 35px;
+  margin: 20px;
+}
+dt {
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  /*font-weight: bolder;*/
+  text-decoration: underline;
+}
+
+dd {
+  margin-left: 42px;
+  margin-bottom: 42px;
+  font-size: 20px;
+  font-weight: lighter;
+}
